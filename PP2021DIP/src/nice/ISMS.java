@@ -3,19 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pp2021dip;
+package nice;
 
 /**
  *
  * @author eduar
  */
-public class PP2021DIP {
+public abstract class ISMS {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+    public abstract void EnviarSMS(IDados cliente, String mensagem);
 }
